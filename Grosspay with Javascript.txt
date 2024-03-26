@@ -1,0 +1,14 @@
+function calculateGrossPay(hourlyRate,hoursWorked){
+//Check if input values are valid
+if (hourlyRate <= 0// hoursWorked<=0)}
+ return "Invalid input.Hourly rate and hours worked must be greater than zero."
+ //Calculate gross pay
+ let grosspay=hourlyRate*hoursWorked;
+ //Return the gross pay
+ return grossPay;
+}
+//Example usage
+const hourlyRate=15;//$15 per hour
+const hoursWorked=40;//40 hours worked
+const grossPay=calculateGrossPay(hourlyRate,hoursWorked);
+console.log("Gros pay:",grossPay);
